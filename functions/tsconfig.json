@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6",
+    "lib": ["ESNext"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types"],
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@firebase-api/*": ["src/*"]
+    }
+  },
+  "compileOnSave": true,
+  "include": ["src/**/*.ts"]
+}
